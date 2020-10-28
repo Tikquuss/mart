@@ -2,6 +2,11 @@
 This script handles the training process.
 """
 
+#%env densecap_HOME=/content/densecap
+#import sys
+#import os
+#sys.path.append(os.path.join(os.environ['densecap_HOME'], "scripts"))
+
 import argparse
 import math
 import time
