@@ -1,6 +1,10 @@
-import argparse
+# our
+import sys
 import os
+sys.path.append(os.environ.get('MART_HOME', '.'))
+import argparse
 import nltk
+nltk.download('punkt')
 import numpy as np
 from tqdm import tqdm
 import torch

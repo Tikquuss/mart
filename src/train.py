@@ -2,18 +2,15 @@
 This script handles the training process.
 """
 
-#%env densecap_HOME=/content/densecap
-#import sys
-#import os
-#sys.path.append(os.path.join(os.environ['densecap_HOME'], "scripts"))
-
+# our
+import sys
+import os
+sys.path.append(os.environ.get('MART_HOME', '.'))
 import argparse
 import math
 import time
-
 import random
 import numpy as np
-import os
 import json
 import subprocess
 from tqdm import tqdm
