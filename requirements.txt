@@ -1,4 +1,6 @@
-torch==1.1.0
+torch==1.1.0 
+torchvision==0.3.0 
+pillow<7
 tensorboardX
 nltk
 easydict
