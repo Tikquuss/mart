@@ -1,0 +1,24 @@
+{
+  "v1": {
+    "duration": 206.86,
+    "timestamps": [
+      [47, 60],
+      [67, 89]
+    ],
+    "sentences": [
+      "pick the ends off the verdalago",
+      "combine lemon juice sumac garlic salt and oil in a bowl",
+    ]
+  },
+  "v2": {
+    "duration": 206.86,
+    "timestamps": [
+      [47, 60],
+      [67, 89]
+    ],
+    "sentences": [
+      "pick the ends off the verdalago",
+      "combine lemon juice sumac garlic salt and oil in a bowl",
+    ]
+  },
+}

@@ -6,6 +6,8 @@ This script handles the training process.
 import sys
 import os
 sys.path.append(os.environ.get('MART_HOME', '.'))
+from configs.utils import config_file
+
 import argparse
 import math
 import time
@@ -494,7 +496,10 @@ def get_args():
     parser.add_argument("--debug", action="store_true")
     parser.add_argument("--eval_tool_dir", type=str, default="./densevid_eval")
 
-    opt = parser.parse_args()
+    # our
+    parser.add_argument("--config_file", type=str, default="", help="")
+
+    opt = config_file(parser.parse_args())
     opt.cuda = not opt.no_cuda
 
     opt.recurrent = True if opt.xl else opt.recurrent
